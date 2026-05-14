@@ -1,0 +1,758 @@
+[
+  {
+    "id": "aws_cloud_practitioner_fundamentals",
+    "title": "AWS Cloud Practitioner Essentials (Foundational)",
+    "platform": "YouTube",
+    "provider": "AWS",
+    "level": "Beginner",
+    "certification": true,
+    "cert_level": "Foundational",
+    "cert_name": "AWS Certified Cloud Practitioner (CLF-C02)",
+    "skills": ["cloud", "aws", "iam", "ec2", "s3", "vpc", "billing", "shared responsibility", "security basics"]
+  },
+  {
+    "id": "aws_sa_associate",
+    "title": "AWS Solutions Architect Associate (SAA) Complete Course",
+    "platform": "Udemy",
+    "provider": "AWS",
+    "level": "Intermediate",
+    "certification": true,
+    "cert_level": "Associate",
+    "cert_name": "AWS Certified Solutions Architect – Associate (SAA-C03)",
+    "skills": ["cloud", "aws", "ec2", "s3", "vpc", "route 53", "iam", "cloudwatch", "high availability", "architecture"]
+  },
+  {
+    "id": "aws_devops_professional",
+    "title": "AWS DevOps Engineer Professional (DOP) Masterclass",
+    "platform": "Udemy",
+    "provider": "AWS",
+    "level": "Advanced",
+    "certification": true,
+    "cert_level": "Professional",
+    "cert_name": "AWS Certified DevOps Engineer – Professional (DOP-C02)",
+    "skills": ["aws", "devops", "cicd", "codepipeline", "cloudformation", "terraform", "monitoring", "logging", "incident response"]
+  },
+  {
+    "id": "azure_fundamentals_az900",
+    "title": "Microsoft Azure Fundamentals AZ-900 (Full Course)",
+    "platform": "YouTube",
+    "provider": "Azure",
+    "level": "Beginner",
+    "certification": true,
+    "cert_level": "Foundational",
+    "cert_name": "Microsoft Certified: Azure Fundamentals (AZ-900)",
+    "skills": ["cloud", "azure", "resource group", "azure ad", "compute", "storage", "networking", "pricing", "governance"]
+  },
+  {
+    "id": "azure_admin_az104",
+    "title": "Azure Administrator AZ-104 Complete Course",
+    "platform": "Udemy",
+    "provider": "Azure",
+    "level": "Intermediate",
+    "certification": true,
+    "cert_level": "Associate",
+    "cert_name": "Microsoft Certified: Azure Administrator Associate (AZ-104)",
+    "skills": ["azure", "cloud", "vm", "vnet", "storage account", "identity", "monitoring", "backup", "governance", "security"]
+  },
+  {
+    "id": "gcp_digital_leader",
+    "title": "Google Cloud Digital Leader Certification Course",
+    "platform": "Coursera",
+    "provider": "GCP",
+    "level": "Beginner",
+    "certification": true,
+    "cert_level": "Foundational",
+    "cert_name": "Google Cloud Digital Leader",
+    "skills": ["cloud", "gcp", "iam", "compute engine", "cloud storage", "bigquery", "networking basics", "security basics"]
+  },
+  {
+    "id": "gcp_associate_cloud_engineer",
+    "title": "Google Cloud Associate Cloud Engineer (ACE) Complete Course",
+    "platform": "Udemy",
+    "provider": "GCP",
+    "level": "Intermediate",
+    "certification": true,
+    "cert_level": "Associate",
+    "cert_name": "Associate Cloud Engineer",
+    "skills": ["gcp", "cloud", "compute engine", "gke", "cloud storage", "cloud run", "iam", "vpc", "monitoring"]
+  },
+
+  {
+    "id": "linux_fundamentals",
+    "title": "Linux Fundamentals for Beginners",
+    "platform": "YouTube",
+    "provider": "General",
+    "level": "Beginner",
+    "certification": false,
+    "skills": ["linux", "bash", "filesystem", "permissions", "processes", "ssh", "package management"]
+  },
+  {
+    "id": "linux_admin_intermediate",
+    "title": "Linux Administration Bootcamp",
+    "platform": "Udemy",
+    "provider": "General",
+    "level": "Intermediate",
+    "certification": false,
+    "skills": ["linux", "systemd", "users", "groups", "networking", "logs", "cron", "security", "performance"]
+  },
+
+  {
+    "id": "docker_complete",
+    "title": "Docker & Containers: Complete Hands-On Guide",
+    "platform": "Udemy",
+    "provider": "General",
+    "level": "Beginner",
+    "certification": false,
+    "skills": ["docker", "containers", "images", "volumes", "networks", "dockerfile", "docker compose"]
+  },
+  {
+    "id": "kubernetes_kodekloud_ckad",
+    "title": "Kubernetes for Developers (CKAD) - Hands-on",
+    "platform": "KodeKloud",
+    "provider": "General",
+    "level": "Intermediate",
+    "certification": true,
+    "cert_level": "Professional",
+    "cert_name": "Certified Kubernetes Application Developer (CKAD)",
+    "skills": ["kubernetes", "pods", "deployments", "services", "configmaps", "secrets", "ingress", "helm", "troubleshooting"]
+  },
+  {
+    "id": "kubernetes_admin_ckA",
+    "title": "Kubernetes Administrator (CKA) Complete Course",
+    "platform": "Udemy",
+    "provider": "General",
+    "level": "Advanced",
+    "certification": true,
+    "cert_level": "Professional",
+    "cert_name": "Certified Kubernetes Administrator (CKA)",
+    "skills": ["kubernetes", "cluster admin", "networking", "etcd", "rbac", "security", "troubleshooting", "monitoring", "backup"]
+  },
+
+  {
+    "id": "terraform_hashicorp_associate",
+    "title": "Terraform: Infrastructure as Code (HashiCorp Associate)",
+    "platform": "Udemy",
+    "provider": "HashiCorp",
+    "level": "Intermediate",
+    "certification": true,
+    "cert_level": "Associate",
+    "cert_name": "HashiCorp Certified: Terraform Associate",
+    "skills": ["terraform", "iac", "modules", "state", "providers", "aws", "azure", "gcp", "best practices"]
+  },
+  {
+    "id": "ansible_automation",
+    "title": "Ansible Automation for Beginners",
+    "platform": "YouTube",
+    "provider": "General",
+    "level": "Beginner",
+    "certification": false,
+    "skills": ["ansible", "automation", "yaml", "playbooks", "inventory", "ssh", "linux"]
+  },
+
+  {
+    "id": "cicd_github_actions",
+    "title": "CI/CD with GitHub Actions - Practical Guide",
+    "platform": "Udemy",
+    "provider": "General",
+    "level": "Beginner",
+    "certification": false,
+    "skills": ["cicd", "github actions", "pipelines", "testing", "build", "deployment", "secrets", "artifacts"]
+  },
+  {
+    "id": "cicd_jenkins_pipeline",
+    "title": "Jenkins Pipeline CI/CD for Beginners",
+    "platform": "YouTube",
+    "provider": "General",
+    "level": "Beginner",
+    "certification": false,
+    "skills": ["jenkins", "cicd", "pipelines", "groovy", "agents", "docker", "git"]
+  },
+  {
+    "id": "devops_monitoring_prometheus_grafana",
+    "title": "Monitoring with Prometheus & Grafana",
+    "platform": "Udemy",
+    "provider": "General",
+    "level": "Intermediate",
+    "certification": false,
+    "skills": ["monitoring", "prometheus", "grafana", "alertmanager", "metrics", "kubernetes", "dashboards"]
+  },
+  {
+    "id": "logging_elk_stack",
+    "title": "Centralized Logging with ELK Stack (Elasticsearch, Logstash, Kibana)",
+    "platform": "Coursera",
+    "provider": "General",
+    "level": "Intermediate",
+    "certification": false,
+    "skills": ["logging", "elasticsearch", "logstash", "kibana", "observability", "search", "pipelines"]
+  },
+
+  {
+    "id": "react_complete",
+    "title": "React - The Complete Guide",
+    "platform": "Udemy",
+    "provider": "General",
+    "level": "Beginner",
+    "certification": false,
+    "skills": ["react", "javascript", "hooks", "components", "routing", "state management", "frontend"]
+  },
+  {
+    "id": "angular_complete",
+    "title": "Angular - The Complete Guide",
+    "platform": "Udemy",
+    "provider": "General",
+    "level": "Intermediate",
+    "certification": false,
+    "skills": ["angular", "typescript", "rxjs", "components", "routing", "frontend"]
+  },
+  {
+    "id": "vue_complete",
+    "title": "Vue.js Essentials - Full Course",
+    "platform": "YouTube",
+    "provider": "General",
+    "level": "Beginner",
+    "certification": false,
+    "skills": ["vue", "javascript", "frontend", "components", "state management", "routing"]
+  },
+  {
+    "id": "typescript_mastery",
+    "title": "TypeScript Mastery",
+    "platform": "Coursera",
+    "provider": "General",
+    "level": "Intermediate",
+    "certification": false,
+    "skills": ["typescript", "javascript", "types", "generics", "frontend", "backend"]
+  },
+
+  {
+    "id": "node_express_api",
+    "title": "Node.js & Express: Build REST APIs",
+    "platform": "Udemy",
+    "provider": "General",
+    "level": "Beginner",
+    "certification": false,
+    "skills": ["node.js", "express", "rest api", "jwt", "authentication", "backend", "mongodb"]
+  },
+  {
+    "id": "django_rest_framework",
+    "title": "Django REST Framework: Build APIs",
+    "platform": "Udemy",
+    "provider": "General",
+    "level": "Intermediate",
+    "certification": false,
+    "skills": ["django", "python", "rest api", "authentication", "permissions", "postgresql", "backend"]
+  },
+  {
+    "id": "fastapi_complete",
+    "title": "FastAPI - The Complete Course",
+    "platform": "YouTube",
+    "provider": "General",
+    "level": "Intermediate",
+    "certification": false,
+    "skills": ["fastapi", "python", "rest api", "pydantic", "async", "authentication", "backend"]
+  },
+
+  {
+    "id": "mongodb_university_basics",
+    "title": "MongoDB Basics (Official Course)",
+    "platform": "MongoDB University",
+    "provider": "MongoDB",
+    "level": "Beginner",
+    "certification": true,
+    "cert_level": "Associate",
+    "cert_name": "MongoDB Developer/DBA (learning path)",
+    "skills": ["mongodb", "nosql", "indexes", "aggregation", "schema design", "database"]
+  },
+  {
+    "id": "postgresql_bootcamp",
+    "title": "PostgreSQL Bootcamp: SQL & Database Design",
+    "platform": "Udemy",
+    "provider": "General",
+    "level": "Beginner",
+    "certification": false,
+    "skills": ["postgresql", "sql", "database design", "indexes", "joins", "transactions", "performance"]
+  },
+  {
+    "id": "mysql_complete",
+    "title": "MySQL for Developers: SQL Mastery",
+    "platform": "Coursera",
+    "provider": "General",
+    "level": "Beginner",
+    "certification": false,
+    "skills": ["mysql", "sql", "database", "joins", "indexes", "normalization"]
+  },
+
+  {
+    "id": "networking_fundamentals",
+    "title": "Computer Networking Fundamentals",
+    "platform": "YouTube",
+    "provider": "General",
+    "level": "Beginner",
+    "certification": false,
+    "skills": ["networking", "tcp/ip", "dns", "http", "routing", "subnets", "security basics"]
+  },
+  {
+    "id": "ccna_complete",
+    "title": "Cisco CCNA 200-301 Complete Course",
+    "platform": "Udemy",
+    "provider": "Cisco",
+    "level": "Intermediate",
+    "certification": true,
+    "cert_level": "Associate",
+    "cert_name": "Cisco Certified Network Associate (CCNA 200-301)",
+    "skills": ["networking", "routing", "switching", "subnetting", "security", "troubleshooting"]
+  },
+
+  {
+    "id": "security_fundamentals",
+    "title": "Cybersecurity Fundamentals",
+    "platform": "Coursera",
+    "provider": "General",
+    "level": "Beginner",
+    "certification": false,
+    "skills": ["security", "threats", "risk", "owasp", "iam", "network security", "incident response"]
+  },
+  {
+    "id": "comptia_security_plus",
+    "title": "CompTIA Security+ (SY0-701) Complete Course",
+    "platform": "Udemy",
+    "provider": "CompTIA",
+    "level": "Intermediate",
+    "certification": true,
+    "cert_level": "Professional",
+    "cert_name": "CompTIA Security+ (SY0-701)",
+    "skills": ["security", "network security", "cryptography", "risk management", "incident response", "governance"]
+  },
+  {
+    "id": "owasp_web_security",
+    "title": "OWASP Top 10 Web Security for Developers",
+    "platform": "YouTube",
+    "provider": "General",
+    "level": "Intermediate",
+    "certification": false,
+    "skills": ["owasp", "web security", "sql injection", "xss", "csrf", "authentication", "authorization"]
+  },
+
+  {
+    "id": "qa_selenium_java",
+    "title": "Selenium WebDriver with Java - Automation Testing",
+    "platform": "Udemy",
+    "provider": "General",
+    "level": "Beginner",
+    "certification": false,
+    "skills": ["testing", "selenium", "automation", "java", "page object model", "cicd"]
+  },
+  {
+    "id": "qa_pytest",
+    "title": "Automated Testing with PyTest",
+    "platform": "YouTube",
+    "provider": "General",
+    "level": "Beginner",
+    "certification": false,
+    "skills": ["testing", "pytest", "python", "unit tests", "integration tests", "mocking"]
+  },
+  {
+    "id": "api_testing_postman",
+    "title": "API Testing with Postman",
+    "platform": "Udemy",
+    "provider": "General",
+    "level": "Beginner",
+    "certification": false,
+    "skills": ["api testing", "postman", "rest api", "collections", "newman", "automation"]
+  },
+
+  {
+    "id": "data_analysis_python",
+    "title": "Data Analysis with Python",
+    "platform": "freeCodeCamp",
+    "provider": "General",
+    "level": "Beginner",
+    "certification": true,
+    "cert_level": "Professional",
+    "cert_name": "freeCodeCamp Data Analysis with Python",
+    "skills": ["python", "pandas", "numpy", "data analysis", "data cleaning", "visualization"]
+  },
+  {
+    "id": "sql_for_data_analysis",
+    "title": "SQL for Data Analysis",
+    "platform": "Coursera",
+    "provider": "General",
+    "level": "Beginner",
+    "certification": false,
+    "skills": ["sql", "data analysis", "joins", "aggregation", "window functions", "analytics"]
+  },
+  {
+    "id": "powerbi_complete",
+    "title": "Power BI Desktop & DAX: Complete Guide",
+    "platform": "Udemy",
+    "provider": "Microsoft",
+    "level": "Intermediate",
+    "certification": false,
+    "skills": ["power bi", "data visualization", "dashboards", "dax", "power query", "reporting"]
+  },
+
+  {
+    "id": "ml_coursera_andrewng",
+    "title": "Machine Learning Specialization",
+    "platform": "Coursera",
+    "provider": "General",
+    "level": "Intermediate",
+    "certification": true,
+    "cert_level": "Professional",
+    "cert_name": "Coursera ML Specialization (Certificate)",
+    "skills": ["machine learning", "python", "supervised learning", "unsupervised learning", "model evaluation", "feature engineering"]
+  },
+  {
+    "id": "deep_learning_specialization",
+    "title": "Deep Learning Specialization",
+    "platform": "Coursera",
+    "provider": "General",
+    "level": "Advanced",
+    "certification": true,
+    "cert_level": "Professional",
+    "cert_name": "Deep Learning Specialization (Certificate)",
+    "skills": ["deep learning", "neural networks", "cnn", "rnn", "optimization", "regularization", "pytorch", "tensorflow"]
+  },
+  {
+    "id": "mlops_fundamentals",
+    "title": "MLOps Fundamentals: Deploying Machine Learning Models",
+    "platform": "Coursera",
+    "provider": "General",
+    "level": "Intermediate",
+    "certification": false,
+    "skills": ["mlops", "deployment", "docker", "cicd", "monitoring", "model registry", "pipelines"]
+  },
+
+  {
+    "id": "system_design_basics",
+    "title": "System Design Fundamentals",
+    "platform": "YouTube",
+    "provider": "General",
+    "level": "Intermediate",
+    "certification": false,
+    "skills": ["system design", "scalability", "caching", "databases", "load balancing", "microservices"]
+  },
+  {
+    "id": "git_github_complete",
+    "title": "Git & GitHub Complete Guide",
+    "platform": "Udemy",
+    "provider": "General",
+    "level": "Beginner",
+    "certification": false,
+    "skills": ["git", "github", "branching", "merging", "pull requests", "collaboration"]
+  }
+
+  ,
+  {
+    "id": "c_react_meta",
+    "title": "React Basics (Meta)",
+    "platform": "Coursera",
+    "provider": "Meta",
+    "level": "Beginner",
+    "duration": "20-30 hours",
+    "link": "https://www.coursera.org/professional-certificates/meta-front-end-developer",
+    "skills": ["React", "JavaScript", "HTML", "CSS"],
+    "certification": true,
+    "cert_name": "Meta Front-End Developer Professional Certificate",
+    "tags": ["frontend", "react", "professional-certificate"]
+  },
+  {
+    "id": "c_react_jonas",
+    "title": "The Ultimate React Course",
+    "platform": "Udemy",
+    "provider": "Jonas Schmedtmann",
+    "level": "Intermediate",
+    "duration": "40+ hours",
+    "link": "https://www.udemy.com/topic/react/",
+    "skills": ["React", "JavaScript", "State Management", "Hooks"],
+    "certification": false,
+    "cert_name": "",
+    "tags": ["frontend", "react"]
+  },
+  {
+    "id": "c_react_namaste",
+    "title": "Namaste React",
+    "platform": "Other",
+    "provider": "NamasteDev",
+    "level": "Intermediate",
+    "duration": "Self-paced",
+    "link": "https://namastedev.com/",
+    "skills": ["React", "JavaScript", "Bundlers", "Performance"],
+    "certification": true,
+    "cert_name": "Namaste React Certificate",
+    "tags": ["frontend", "react"]
+  },
+  {
+    "id": "c_react_freecodecamp",
+    "title": "React Course - Full Tutorial (freeCodeCamp)",
+    "platform": "YouTube",
+    "provider": "freeCodeCamp.org",
+    "level": "Beginner",
+    "duration": "6-10 hours",
+    "link": "https://www.youtube.com/@freecodecamp",
+    "skills": ["React", "JavaScript"],
+    "certification": false,
+    "cert_name": "",
+    "tags": ["frontend", "react"]
+  },
+  {
+    "id": "c_js_modern",
+    "title": "Modern JavaScript From The Beginning",
+    "platform": "Udemy",
+    "provider": "Brad Traversy",
+    "level": "Beginner",
+    "duration": "20+ hours",
+    "link": "https://www.udemy.com/topic/javascript/",
+    "skills": ["JavaScript", "DOM", "ES6+"],
+    "certification": false,
+    "cert_name": "",
+    "tags": ["frontend", "javascript"]
+  },
+  {
+    "id": "c_ts_basics",
+    "title": "TypeScript for Beginners",
+    "platform": "YouTube",
+    "provider": "Fireship",
+    "level": "Beginner",
+    "duration": "1-3 hours",
+    "link": "https://www.youtube.com/@Fireship",
+    "skills": ["TypeScript", "JavaScript"],
+    "certification": false,
+    "cert_name": "",
+    "tags": ["frontend", "typescript"]
+  },
+  {
+    "id": "c_ts_advanced",
+    "title": "TypeScript Masterclass",
+    "platform": "Udemy",
+    "provider": "ZTM",
+    "level": "Advanced",
+    "duration": "15+ hours",
+    "link": "https://www.udemy.com/topic/typescript/",
+    "skills": ["TypeScript", "Generics", "Advanced Types"],
+    "certification": false,
+    "cert_name": "",
+    "tags": ["frontend", "typescript"]
+  },
+  {
+    "id": "c_node_backend",
+    "title": "Node.js, Express, MongoDB & More: The Complete Bootcamp",
+    "platform": "Udemy",
+    "provider": "Jonas Schmedtmann",
+    "level": "Intermediate",
+    "duration": "40+ hours",
+    "link": "https://www.udemy.com/topic/nodejs/",
+    "skills": ["Node.js", "Express", "MongoDB", "REST API", "JWT"],
+    "certification": false,
+    "cert_name": "",
+    "tags": ["backend", "node"]
+  },
+  {
+    "id": "c_express_api",
+    "title": "Express.js Crash Course",
+    "platform": "YouTube",
+    "provider": "Traversy Media",
+    "level": "Beginner",
+    "duration": "2-4 hours",
+    "link": "https://www.youtube.com/@TraversyMedia",
+    "skills": ["Express", "Node.js", "REST API"],
+    "certification": false,
+    "cert_name": "",
+    "tags": ["backend", "express"]
+  },
+  {
+    "id": "c_mongodb_uni",
+    "title": "MongoDB Basics",
+    "platform": "Other",
+    "provider": "MongoDB University",
+    "level": "Beginner",
+    "duration": "Self-paced",
+    "link": "https://learn.mongodb.com/",
+    "skills": ["MongoDB", "Indexes", "Aggregation"],
+    "certification": true,
+    "cert_name": "MongoDB University Certificate",
+    "tags": ["database", "mongodb"]
+  },
+  {
+    "id": "c_mysql_basics",
+    "title": "MySQL for Data & Apps",
+    "platform": "Coursera",
+    "provider": "University",
+    "level": "Beginner",
+    "duration": "15-25 hours",
+    "link": "https://www.coursera.org/courses?query=mysql",
+    "skills": ["MySQL", "SQL", "Joins", "Indexing"],
+    "certification": false,
+    "cert_name": "",
+    "tags": ["database", "mysql"]
+  },
+  {
+    "id": "c_postgres_sql",
+    "title": "PostgreSQL for Everybody",
+    "platform": "Coursera",
+    "provider": "University of Michigan",
+    "level": "Beginner",
+    "duration": "20-30 hours",
+    "link": "https://www.coursera.org/search?query=postgresql",
+    "skills": ["PostgreSQL", "SQL"],
+    "certification": false,
+    "cert_name": "",
+    "tags": ["database", "postgresql"]
+  },
+  {
+    "id": "c_git_github",
+    "title": "Git & GitHub Full Course",
+    "platform": "YouTube",
+    "provider": "freeCodeCamp.org",
+    "level": "Beginner",
+    "duration": "4-6 hours",
+    "link": "https://www.youtube.com/@freecodecamp",
+    "skills": ["Git", "GitHub"],
+    "certification": false,
+    "cert_name": "",
+    "tags": ["tools", "git"]
+  },
+  {
+    "id": "c_docker_fcc",
+    "title": "Docker & Kubernetes Full Course",
+    "platform": "YouTube",
+    "provider": "freeCodeCamp.org",
+    "level": "Beginner",
+    "duration": "6-10 hours",
+    "link": "https://www.youtube.com/@freecodecamp",
+    "skills": ["Docker", "Containers", "Kubernetes"],
+    "certification": false,
+    "cert_name": "",
+    "tags": ["devops", "docker"]
+  },
+  {
+    "id": "c_docker_udemy",
+    "title": "Docker Mastery",
+    "platform": "Udemy",
+    "provider": "Bret Fisher",
+    "level": "Intermediate",
+    "duration": "15+ hours",
+    "link": "https://www.udemy.com/topic/docker/",
+    "skills": ["Docker", "Docker Compose", "Images", "Networking"],
+    "certification": false,
+    "cert_name": "",
+    "tags": ["devops", "docker"]
+  },
+  {
+    "id": "c_k8s_ckad_prep",
+    "title": "Kubernetes for the Absolute Beginners",
+    "platform": "Udemy",
+    "provider": "KodeKloud",
+    "level": "Beginner",
+    "duration": "8-12 hours",
+    "link": "https://www.udemy.com/topic/kubernetes/",
+    "skills": ["Kubernetes", "Pods", "Deployments", "Services"],
+    "certification": false,
+    "cert_name": "",
+    "tags": ["devops", "kubernetes"]
+  },
+  {
+    "id": "c_linux_basics",
+    "title": "Linux for Beginners",
+    "platform": "YouTube",
+    "provider": "NetworkChuck",
+    "level": "Beginner",
+    "duration": "3-8 hours",
+    "link": "https://www.youtube.com/@NetworkChuck",
+    "skills": ["Linux", "Shell", "Permissions"],
+    "certification": false,
+    "cert_name": "",
+    "tags": ["devops", "linux"]
+  },
+  {
+    "id": "c_cicd_github",
+    "title": "CI/CD with GitHub Actions",
+    "platform": "YouTube",
+    "provider": "TechWorld with Nana",
+    "level": "Intermediate",
+    "duration": "2-6 hours",
+    "link": "https://www.youtube.com/@TechWorldwithNana",
+    "skills": ["CI/CD", "GitHub Actions", "Pipelines"],
+    "certification": false,
+    "cert_name": "",
+    "tags": ["devops", "cicd"]
+  },
+  {
+    "id": "c_aws_ccp",
+    "title": "AWS Certified Cloud Practitioner (CLF-C02) Prep",
+    "platform": "Other",
+    "provider": "AWS Skill Builder",
+    "level": "Beginner",
+    "duration": "Self-paced",
+    "link": "https://skillbuilder.aws/",
+    "skills": ["AWS", "Cloud Provider", "IAM", "EC2", "S3"],
+    "certification": true,
+    "cert_name": "AWS Certified Cloud Practitioner",
+    "tags": ["cloud", "aws", "certification"]
+  },
+  {
+    "id": "c_aws_saa",
+    "title": "AWS Certified Solutions Architect - Associate (SAA) Prep",
+    "platform": "Udemy",
+    "provider": "Stephane Maarek",
+    "level": "Intermediate",
+    "duration": "25+ hours",
+    "link": "https://www.udemy.com/topic/aws-certified-solutions-architect-associate/",
+    "skills": ["AWS", "VPC", "EC2", "S3", "RDS", "Cloud Architecture"],
+    "certification": true,
+    "cert_name": "AWS Certified Solutions Architect - Associate",
+    "tags": ["cloud", "aws", "certification"]
+  },
+  {
+    "id": "c_azure_fundamentals",
+    "title": "AZ-900: Microsoft Azure Fundamentals",
+    "platform": "Other",
+    "provider": "Microsoft Learn",
+    "level": "Beginner",
+    "duration": "Self-paced",
+    "link": "https://learn.microsoft.com/",
+    "skills": ["Azure", "Cloud Provider", "IAM", "Compute", "Storage"],
+    "certification": true,
+    "cert_name": "Microsoft Certified: Azure Fundamentals (AZ-900)",
+    "tags": ["cloud", "azure", "certification"]
+  },
+  {
+    "id": "c_gcp_digital",
+    "title": "Google Cloud Digital Leader",
+    "platform": "Other",
+    "provider": "Google Cloud Skills Boost",
+    "level": "Beginner",
+    "duration": "Self-paced",
+    "link": "https://www.cloudskillsboost.google/",
+    "skills": ["GCP", "Cloud Provider", "Compute", "Storage", "Networking"],
+    "certification": true,
+    "cert_name": "Google Cloud Digital Leader",
+    "tags": ["cloud", "gcp", "certification"]
+  },
+  {
+    "id": "c_monitoring_prometheus",
+    "title": "Prometheus & Grafana Monitoring",
+    "platform": "YouTube",
+    "provider": "TechWorld with Nana",
+    "level": "Intermediate",
+    "duration": "2-6 hours",
+    "link": "https://www.youtube.com/@TechWorldwithNana",
+    "skills": ["Monitoring", "Prometheus", "Grafana"],
+    "certification": false,
+    "cert_name": "",
+    "tags": ["devops", "monitoring"]
+  },
+  {
+    "id": "c_security_owasp",
+    "title": "OWASP Top 10 - Web Security Basics",
+    "platform": "YouTube",
+    "provider": "HackerSploit",
+    "level": "Beginner",
+    "duration": "3-8 hours",
+    "link": "https://www.youtube.com/@HackerSploit",
+    "skills": ["Security", "OWASP", "Web Security"],
+    "certification": false,
+    "cert_name": "",
+    "tags": ["security", "owasp"]
+  }
+
+]

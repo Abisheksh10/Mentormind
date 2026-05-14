@@ -1,0 +1,222 @@
+/* Tailwind v4 style import */
+@import "tailwindcss";
+
+:root {
+  --mm-bg: #070b18;
+  --mm-panel: rgba(15, 22, 46, 0.55);
+  --mm-panel2: rgba(12, 18, 40, 0.7);
+  --mm-border: rgba(255, 255, 255, 0.06);
+
+  --mm-text: #eaf0ff;
+  --mm-muted: rgba(234, 240, 255, 0.65);
+
+  --mm-blue: #2f6bff;
+  --mm-blue2: #4b46e5;
+  --mm-purple: #6d4bff;
+
+  --mm-shadow: 0 20px 70px rgba(0, 0, 0, 0.55);
+  --mm-shadow2: 0 0 0 1px rgba(255, 255, 255, 0.06), 0 20px 70px rgba(0, 0, 0, 0.55);
+}
+
+/* Light theme tokens */
+html.light {
+  --mm-bg: #f4f6fb;
+  --mm-panel: rgba(255, 255, 255, 0.78);
+  --mm-panel2: rgba(255, 255, 255, 0.92);
+  --mm-border: rgba(15, 23, 42, 0.10);
+
+  --mm-text: rgba(15, 23, 42, 0.95);
+  --mm-muted: rgba(15, 23, 42, 0.60);
+
+  --mm-blue: #2f6bff;
+  --mm-blue2: #4b46e5;
+  --mm-purple: #6d4bff;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: var(--mm-bg);
+  color: var(--mm-text);
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial;
+  overflow-x: hidden;
+}
+
+/* Smooth rendering */
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* ==========================================
+   Reusable UI Classes (MentorMind Design)
+=========================================== */
+.mm-shell {
+  min-height: 100vh;
+  background:
+    radial-gradient(900px circle at 20% -10%, rgba(47, 107, 255, 0.35), rgba(7, 11, 24, 0) 55%),
+    radial-gradient(700px circle at 80% 0%, rgba(109, 75, 255, 0.22), rgba(7, 11, 24, 0) 55%),
+    var(--mm-bg);
+}
+
+html.light .mm-shell {
+  background:
+    radial-gradient(900px circle at 20% -10%, rgba(47, 107, 255, 0.16), rgba(244, 246, 251, 0) 55%),
+    radial-gradient(700px circle at 80% 0%, rgba(109, 75, 255, 0.12), rgba(244, 246, 251, 0) 55%),
+    var(--mm-bg);
+}
+
+.mm-card,
+.mm-card-deep {
+  border-radius: 18px;
+  box-shadow: var(--mm-shadow2);
+  backdrop-filter: blur(12px);
+}
+
+.mm-card {
+  background: var(--mm-panel);
+  border: 1px solid var(--mm-border);
+}
+
+.mm-card-deep {
+  background: var(--mm-panel2);
+  border: 1px solid var(--mm-border);
+}
+
+.mm-divider {
+  border-color: var(--mm-border);
+}
+
+.mm-muted {
+  color: var(--mm-muted);
+}
+
+/* Buttons */
+.mm-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 16px;
+  border-radius: 12px;
+  border: 1px solid var(--mm-border);
+  background: rgba(255, 255, 255, 0.06);
+  transition: 0.2s;
+}
+
+.mm-btn:hover {
+  background: rgba(255, 255, 255, 0.10);
+}
+
+html.light .mm-btn {
+  background: rgba(15, 23, 42, 0.05);
+}
+
+html.light .mm-btn:hover {
+  background: rgba(15, 23, 42, 0.08);
+}
+
+.mm-btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 16px;
+  border-radius: 12px;
+  background: var(--mm-blue);
+  color: white;
+  font-weight: 600;
+  transition: 0.2s;
+  box-shadow: 0 0 0 1px rgba(47, 107, 255, 0.20), 0 22px 45px rgba(0, 0, 0, 0.55);
+}
+
+.mm-btn-primary:hover {
+  opacity: 0.92;
+}
+
+/* Pills / tags */
+.mm-pill {
+  padding: 4px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--mm-border);
+  background: rgba(255, 255, 255, 0.06);
+  font-size: 12px;
+}
+
+/* Inputs */
+.mm-input {
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid var(--mm-border);
+  background: rgba(255, 255, 255, 0.04);
+  padding: 12px 14px;
+  outline: none;
+  transition: 0.2s;
+}
+
+.mm-input:focus {
+  border-color: rgba(47, 107, 255, 0.5);
+  box-shadow: 0 0 0 4px rgba(47, 107, 255, 0.12);
+}
+
+html.light .mm-input {
+  background: rgba(15, 23, 42, 0.04);
+}
+
+/* Links */
+a {
+  text-decoration: none;
+}
+
+/* Better scrollbars (desktop browsers) */
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+*::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 999px;
+}
+*::-webkit-scrollbar-thumb {
+  background: rgba(234, 240, 255, 0.22);
+  border-radius: 999px;
+  border: 2px solid rgba(0, 0, 0, 0);
+  background-clip: padding-box;
+}
+*::-webkit-scrollbar-thumb:hover {
+  background: rgba(234, 240, 255, 0.32);
+}
+html.light *::-webkit-scrollbar-track {
+  background: rgba(15, 23, 42, 0.06);
+}
+html.light *::-webkit-scrollbar-thumb {
+  background: rgba(15, 23, 42, 0.22);
+}
+html.light *::-webkit-scrollbar-thumb:hover {
+  background: rgba(15, 23, 42, 0.30);
+}
+
+/* Make cards behave nicely on very small screens */
+@media (max-width: 480px) {
+  .mm-card,
+  .mm-card-deep {
+    border-radius: 16px;
+  }
+
+  .mm-btn,
+  .mm-btn-primary {
+    padding: 10px 14px;
+    border-radius: 12px;
+  }
+}
+
+/* Prevent wide elements from breaking layout */
+img,
+video,
+canvas,
+svg {
+  max-width: 100%;
+  height: auto;
+}

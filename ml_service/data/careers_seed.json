@@ -1,0 +1,374 @@
+[
+  {
+    "id": "frontend_dev",
+    "title": "Frontend Developer",
+    "keywords": [],
+    "requiredSkills": [
+      {
+        "type": "anyOf",
+        "label": "Frontend Framework",
+        "options": [
+          "react",
+          "angular",
+          "vue"
+        ],
+        "requiredProficiency": 75,
+        "importance": 1.3
+      },
+      {
+        "skill": "javascript",
+        "requiredProficiency": 70,
+        "importance": 1.2
+      },
+      {
+        "skill": "html",
+        "requiredProficiency": 65,
+        "importance": 0.6
+      },
+      {
+        "skill": "css",
+        "requiredProficiency": 65,
+        "importance": 0.6
+      },
+      {
+        "skill": "tailwind",
+        "requiredProficiency": 60,
+        "importance": 0.7
+      },
+      {
+        "skill": "git",
+        "requiredProficiency": 55,
+        "importance": 0.6
+      }
+    ]
+  },
+  {
+    "id": "fullstack_dev",
+    "title": "Full Stack Developer",
+    "keywords": [],
+    "requiredSkills": [
+      {
+        "type": "anyOf",
+        "label": "Frontend Framework",
+        "options": [
+          "react",
+          "angular",
+          "vue"
+        ],
+        "requiredProficiency": 70,
+        "importance": 1.0
+      },
+      {
+        "skill": "node.js",
+        "requiredProficiency": 70,
+        "importance": 1.2
+      },
+      {
+        "skill": "express",
+        "requiredProficiency": 65,
+        "importance": 1.0
+      },
+      {
+        "type": "anyOf",
+        "label": "Database",
+        "options": [
+          "mongodb",
+          "postgresql",
+          "mysql"
+        ],
+        "requiredProficiency": 60,
+        "importance": 0.9
+      },
+      {
+        "skill": "javascript",
+        "requiredProficiency": 70,
+        "importance": 1.1
+      },
+      {
+        "skill": "git",
+        "requiredProficiency": 55,
+        "importance": 0.6
+      },
+      {
+        "skill": "docker",
+        "requiredProficiency": 50,
+        "importance": 0.7
+      }
+    ]
+  },
+  {
+    "id": "backend_dev",
+    "title": "Backend Developer",
+    "keywords": [],
+    "requiredSkills": [
+      {
+        "type": "anyOf",
+        "label": "Backend Language",
+        "options": [
+          "python",
+          "javascript"
+        ],
+        "requiredProficiency": 65,
+        "importance": 1.0
+      },
+      {
+        "type": "anyOf",
+        "label": "Backend Framework",
+        "options": [
+          "django",
+          "fastapi",
+          "express"
+        ],
+        "requiredProficiency": 60,
+        "importance": 1.1
+      },
+      {
+        "type": "anyOf",
+        "label": "Database",
+        "options": [
+          "postgresql",
+          "mysql",
+          "mongodb"
+        ],
+        "requiredProficiency": 65,
+        "importance": 1.1
+      },
+      {
+        "skill": "rest api",
+        "requiredProficiency": 70,
+        "importance": 1.2
+      },
+      {
+        "skill": "git",
+        "requiredProficiency": 55,
+        "importance": 0.6
+      },
+      {
+        "skill": "docker",
+        "requiredProficiency": 55,
+        "importance": 0.7
+      }
+    ]
+  },
+  {
+    "id": "qa_automation",
+    "title": "QA Automation Engineer",
+    "keywords": [],
+    "requiredSkills": [
+      {
+        "type": "anyOf",
+        "label": "Automation Language",
+        "options": [
+          "python",
+          "java",
+          "javascript"
+        ],
+        "requiredProficiency": 60,
+        "importance": 1.0
+      },
+      {
+        "type": "anyOf",
+        "label": "UI Automation Tool",
+        "options": [
+          "selenium",
+          "playwright",
+          "cypress"
+        ],
+        "requiredProficiency": 60,
+        "importance": 1.1
+      },
+      {
+        "skill": "api testing",
+        "requiredProficiency": 65,
+        "importance": 1.1
+      },
+      {
+        "skill": "git",
+        "requiredProficiency": 55,
+        "importance": 0.6
+      },
+      {
+        "skill": "ci/cd",
+        "requiredProficiency": 50,
+        "importance": 0.9
+      }
+    ]
+  },
+  {
+    "id": "devops_engineer",
+    "title": "DevOps Engineer",
+    "keywords": [],
+    "requiredSkills": [
+      {
+        "skill": "linux",
+        "requiredProficiency": 70,
+        "importance": 1.2
+      },
+      {
+        "skill": "docker",
+        "requiredProficiency": 75,
+        "importance": 1.3
+      },
+      {
+        "skill": "kubernetes",
+        "requiredProficiency": 60,
+        "importance": 1.3
+      },
+      {
+        "skill": "git",
+        "requiredProficiency": 65,
+        "importance": 0.7
+      },
+      {
+        "skill": "ci/cd",
+        "requiredProficiency": 65,
+        "importance": 1.2
+      },
+      {
+        "skill": "monitoring",
+        "requiredProficiency": 55,
+        "importance": 1.0
+      },
+      {
+        "type": "anyOf",
+        "label": "Cloud Provider",
+        "options": [
+          "aws",
+          "azure",
+          "gcp"
+        ],
+        "requiredProficiency": 60,
+        "importance": 1.2
+      }
+    ]
+  },
+  {
+    "id": "cloud_engineer",
+    "title": "Cloud Engineer",
+    "keywords": [],
+    "requiredSkills": [
+      {
+        "type": "anyOf",
+        "label": "Cloud Provider",
+        "options": [
+          "aws",
+          "azure",
+          "gcp"
+        ],
+        "requiredProficiency": 75,
+        "importance": 1.4
+      },
+      {
+        "skill": "linux",
+        "requiredProficiency": 65,
+        "importance": 1.1
+      },
+      {
+        "skill": "networking",
+        "requiredProficiency": 60,
+        "importance": 1.1
+      },
+      {
+        "skill": "docker",
+        "requiredProficiency": 60,
+        "importance": 1.1
+      },
+      {
+        "skill": "security",
+        "requiredProficiency": 55,
+        "importance": 1.0
+      }
+    ]
+  },
+  {
+    "id": "cybersecurity_analyst",
+    "title": "Cybersecurity Analyst",
+    "keywords": [],
+    "requiredSkills": [
+      {
+        "skill": "networking",
+        "requiredProficiency": 70,
+        "importance": 1.3
+      },
+      {
+        "skill": "linux",
+        "requiredProficiency": 65,
+        "importance": 1.2
+      },
+      {
+        "skill": "security",
+        "requiredProficiency": 75,
+        "importance": 1.4
+      },
+      {
+        "skill": "owasp",
+        "requiredProficiency": 55,
+        "importance": 1.0
+      }
+    ]
+  },
+  {
+    "id": "data_analyst",
+    "title": "Data Analyst",
+    "keywords": [],
+    "requiredSkills": [
+      {
+        "skill": "sql",
+        "requiredProficiency": 70,
+        "importance": 1.3
+      },
+      {
+        "skill": "python",
+        "requiredProficiency": 60,
+        "importance": 1.1
+      },
+      {
+        "skill": "data visualization",
+        "requiredProficiency": 65,
+        "importance": 1.2
+      },
+      {
+        "skill": "statistics",
+        "requiredProficiency": 50,
+        "importance": 0.9
+      }
+    ]
+  },
+  {
+    "id": "ml_engineer",
+    "title": "Machine Learning Engineer",
+    "keywords": [],
+    "requiredSkills": [
+      {
+        "skill": "python",
+        "requiredProficiency": 75,
+        "importance": 1.2
+      },
+      {
+        "skill": "machine learning",
+        "requiredProficiency": 80,
+        "importance": 1.4
+      },
+      {
+        "type": "anyOf",
+        "label": "Deep Learning Framework",
+        "options": [
+          "pytorch",
+          "tensorflow"
+        ],
+        "requiredProficiency": 60,
+        "importance": 1.0
+      },
+      {
+        "skill": "docker",
+        "requiredProficiency": 60,
+        "importance": 1.0
+      },
+      {
+        "skill": "mlops",
+        "requiredProficiency": 55,
+        "importance": 1.0
+      }
+    ]
+  }
+]

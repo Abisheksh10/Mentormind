@@ -1,0 +1,156 @@
+[
+  {
+    "id": "proj_fullstack_auth_app",
+    "title": "Full Stack Auth App (JWT + Role-Based Access)",
+    "level": "Intermediate",
+    "skills": ["full stack", "react", "node.js", "express", "jwt", "authentication", "authorization", "mongodb", "postgresql", "api"]
+  },
+  {
+    "id": "proj_fullstack_ecommerce",
+    "title": "E-Commerce Web App with Cart, Payments, Admin Dashboard",
+    "level": "Advanced",
+    "skills": ["full stack", "react", "node.js", "express", "database", "mongodb", "postgresql", "payment gateway", "system design"]
+  },
+  {
+    "id": "proj_devops_cicd_pipeline",
+    "title": "CI/CD Pipeline: GitHub Actions → Docker Build → Deploy",
+    "level": "Intermediate",
+    "skills": ["devops", "cicd", "github actions", "docker", "secrets", "deployment", "linux"]
+  },
+  {
+    "id": "proj_kubernetes_microservices",
+    "title": "Deploy Microservices on Kubernetes with Ingress + Autoscaling",
+    "level": "Advanced",
+    "skills": ["kubernetes", "docker", "ingress", "helm", "hpa", "monitoring", "prometheus", "grafana"]
+  },
+  {
+    "id": "proj_terraform_iac_cloud",
+    "title": "Provision Cloud Infrastructure using Terraform (AWS/Azure/GCP)",
+    "level": "Intermediate",
+    "skills": ["terraform", "iac", "aws", "azure", "gcp", "vpc", "iam", "networking"]
+  },
+  {
+    "id": "proj_cloud_serverless_api",
+    "title": "Serverless REST API (AWS Lambda / Azure Functions / Cloud Run)",
+    "level": "Intermediate",
+    "skills": ["cloud", "aws", "azure", "gcp", "serverless", "api gateway", "authentication", "monitoring"]
+  },
+  {
+    "id": "proj_observability_stack",
+    "title": "Observability Stack: Logs + Metrics + Dashboards (ELK + Prometheus + Grafana)",
+    "level": "Advanced",
+    "skills": ["logging", "elasticsearch", "kibana", "prometheus", "grafana", "monitoring", "alerting", "devops"]
+  },
+  {
+    "id": "proj_web_security_lab",
+    "title": "Web Security Lab: OWASP Top 10 Practice App",
+    "level": "Intermediate",
+    "skills": ["security", "owasp", "sql injection", "xss", "csrf", "authentication", "authorization", "web security"]
+  },
+  {
+    "id": "proj_api_testing_suite",
+    "title": "API Testing Suite using Postman + Newman + CI",
+    "level": "Intermediate",
+    "skills": ["api testing", "postman", "newman", "cicd", "testing", "github actions"]
+  },
+  {
+    "id": "proj_qa_ui_automation",
+    "title": "UI Automation Framework with Selenium + Page Object Model",
+    "level": "Intermediate",
+    "skills": ["selenium", "testing", "automation", "page object model", "cicd", "java", "python"]
+  },
+  {
+    "id": "proj_data_dashboard",
+    "title": "Data Analytics Dashboard (SQL + Power BI / Python)",
+    "level": "Intermediate",
+    "skills": ["sql", "data analysis", "data visualization", "power bi", "python", "pandas"]
+  },
+  {
+    "id": "proj_ml_classification_pipeline",
+    "title": "ML Classification Pipeline with Model Tracking + Deployment",
+    "level": "Advanced",
+    "skills": ["machine learning", "mlops", "deployment", "docker", "monitoring", "model evaluation", "pipelines"]
+  }
+  ,
+  {
+    "id": "p_react_portfolio",
+    "title": "Personal Portfolio with React",
+    "level": "Beginner",
+    "link": "https://github.com/topics/react-portfolio",
+    "skills": ["React", "JavaScript", "HTML", "CSS"],
+    "tags": ["frontend", "react"]
+  },
+  {
+    "id": "p_react_dashboard",
+    "title": "Admin Dashboard with React + Charts",
+    "level": "Intermediate",
+    "link": "https://github.com/topics/react-dashboard",
+    "skills": ["React", "JavaScript", "Data Visualization"],
+    "tags": ["frontend", "react"]
+  },
+  {
+    "id": "p_node_rest_api",
+    "title": "REST API with Node.js + Express",
+    "level": "Beginner",
+    "link": "https://github.com/topics/express-api",
+    "skills": ["Node.js", "Express", "REST API"],
+    "tags": ["backend", "node"]
+  },
+  {
+    "id": "p_fullstack_auth",
+    "title": "Full Stack App with Auth (React + Node + MongoDB)",
+    "level": "Intermediate",
+    "link": "https://github.com/topics/mern-auth",
+    "skills": ["React", "Node.js", "Express", "MongoDB", "JWT"],
+    "tags": ["fullstack", "mern"]
+  },
+  {
+    "id": "p_mysql_inventory",
+    "title": "Inventory System with MySQL",
+    "level": "Intermediate",
+    "link": "https://github.com/topics/mysql-project",
+    "skills": ["MySQL", "SQL", "Backend"],
+    "tags": ["database", "mysql"]
+  },
+  {
+    "id": "p_dockerize_app",
+    "title": "Dockerize a Full Stack App",
+    "level": "Intermediate",
+    "link": "https://github.com/topics/docker-compose",
+    "skills": ["Docker", "Docker Compose", "Deployment"],
+    "tags": ["devops", "docker"]
+  },
+  {
+    "id": "p_cicd_pipeline",
+    "title": "CI/CD Pipeline with GitHub Actions",
+    "level": "Intermediate",
+    "link": "https://github.com/topics/github-actions",
+    "skills": ["CI/CD", "GitHub Actions", "Docker"],
+    "tags": ["devops", "cicd"]
+  },
+  {
+    "id": "p_k8s_deploy",
+    "title": "Deploy Microservice to Kubernetes",
+    "level": "Advanced",
+    "link": "https://github.com/topics/kubernetes-deployment",
+    "skills": ["Kubernetes", "Docker", "Networking"],
+    "tags": ["devops", "kubernetes"]
+  },
+  {
+    "id": "p_aws_s3_lambda",
+    "title": "Serverless App with AWS Lambda + S3",
+    "level": "Intermediate",
+    "link": "https://github.com/topics/aws-lambda",
+    "skills": ["AWS", "Cloud Provider", "Lambda", "S3"],
+    "tags": ["cloud", "aws"]
+  },
+  {
+    "id": "p_monitoring_stack",
+    "title": "Monitoring Stack with Prometheus + Grafana",
+    "level": "Advanced",
+    "link": "https://github.com/topics/grafana",
+    "skills": ["Monitoring", "Prometheus", "Grafana", "Linux"],
+    "tags": ["devops", "monitoring"]
+  }
+
+]
