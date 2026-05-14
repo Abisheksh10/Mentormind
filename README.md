@@ -248,18 +248,18 @@ adzuna.app.id=your_adzuna_app_id
 adzuna.app.key=your_adzuna_app_key
 ```
 
-Implemented secure JWT authentication, authorization, and protected REST APIs using Spring Boot and Spring Security.
-Developed AI-powered career recommendation workflows based on user skills, proficiency, and academic progress tracking.
-Built a TF-IDF recommendation engine using Scikit-learn for personalized course and project suggestions.
-Developed a LightGBM multiclass career ranking model using synthetic and real feedback training datasets.
-Created a RandomForest-based skill gap prioritization model for intelligent career improvement recommendations.
-Integrated FastAPI machine learning microservice with Spring Boot backend for scalable AI prediction pipelines.
-Implemented dynamic skill gap analysis with matched skills, missing skills, probability scoring, and career ranking.
-Integrated Adzuna Jobs API to fetch real-time job opportunities based on recommended careers and skills.
-Built responsive frontend interfaces using React.js, Tailwind CSS, Axios, and reusable component architecture.
-Designed scalable MongoDB profile management system for academics, skills, certifications, and career tracking.
-Implemented personalized learning recommendations using semantic similarity, text vectorization, and skill matching.
-Developed feedback logging workflows for improving career prediction accuracy using user interaction data.
+* Implemented secure JWT authentication, authorization, and protected REST APIs using Spring Boot and Spring Security.
+* Developed AI-powered career recommendation workflows based on user skills, proficiency, and academic progress tracking.
+* Built a TF-IDF recommendation engine using Scikit-learn for personalized course and project suggestions.
+* Developed a LightGBM multiclass career ranking model using synthetic and real feedback training datasets.
+* Created a RandomForest-based skill gap prioritization model for intelligent career improvement recommendations.
+* Integrated FastAPI machine learning microservice with Spring Boot backend for scalable AI prediction pipelines.
+* Implemented dynamic skill gap analysis with matched skills, missing skills, probability scoring, and career ranking.
+* Integrated Adzuna Jobs API to fetch real-time job opportunities based on recommended careers and skills.
+* Built responsive frontend interfaces using React.js, Tailwind CSS, Axios, and reusable component architecture.
+* Designed scalable MongoDB profile management system for academics, skills, certifications, and career tracking.
+* Implemented personalized learning recommendations using semantic similarity, text vectorization, and skill matching.
+* Developed feedback logging workflows for improving career prediction accuracy using user interaction data.
 
 ---
 
@@ -274,6 +274,4 @@ Developed feedback logging workflows for improving career prediction accuracy us
 
 ---
 
-# Author
 
-Abishek S H
